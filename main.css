@@ -1,0 +1,403 @@
+body{
+    overflow : hidden;
+    background-size : 100% 100%;
+    background-position : center center;
+}
+#title1{
+    color : rgb(177,196,218);
+    border : 5px none;
+    border-radius : 30px;
+    background-color : black;
+    font-weight : bold;
+    width : 98%;
+}
+#button1{
+    position : absolute;
+    width :18%;
+    border : 5px none;
+    border-radius : 30px;
+    background-color : black;
+    color : rgb(177,196,218);
+    font-weight : bold;
+    top : 10.3%;
+    left : 1%;
+    text-align : center;
+    cursor : pointer;
+}
+.main{
+    height : 50%;
+    width : 75%;
+    border : 6px none;
+    background-color : none;
+    border-right : none;
+    padding-top : 2%;
+    padding-right : 2.5%;
+    padding-left : 2%;
+    padding-bottom : 2%;
+    border-radius : 40px;
+    margin-left : 2%;
+    overflow-x : hidden;
+    overflow-y : auto;				
+}
+#d1{
+    height : 100%;;
+    width : 100%;
+    border : 6px solid black;
+    padding : 0;
+    border-radius : 30px;
+    background : url('./img/img1.jpeg');
+    background-size : 90% 90%;
+    background-attachment : fixed;
+    background-position : top center;
+    background-repeat : no-repeat;
+    margin-bottom : 2%;
+}
+#d2{
+    height : 100%;
+    width : 100%;
+    border : 6px solid black;
+    padding : 0;
+    border-radius : 30px;
+    background : url('./img/img2.jpeg');
+    background-size : 95% 95%;
+    background-attachment : fixed;
+    background-position : top center;
+    background-repeat : no-repeat;
+    margin-bottom : 2%;
+}
+#d3{
+    height : 100%;
+    width : 100%;
+    border : 6px solid black;
+    padding : 0;
+    border-radius : 30px;
+    background : url('./img/img3.jpeg');
+    background-size : 95% 95%;
+    background-attachment : fixed;
+    background-position : top center;
+    background-repeat : no-repeat;
+    margin-bottom : 2%;
+}
+#d4{
+    height : 100%;
+    width : 100%;
+    border : 6px solid black;
+    padding : 0;
+    border-radius : 30px;
+    background : url('./img/img4.jpeg');
+    background-size : 95% 95%;
+    background-attachment : fixed;
+    background-position : top center;
+    background-repeat : no-repeat;
+}
+#title2{
+    color : rgb(177,196,218);
+    border : 5px none;
+    border-radius : 30px;
+    background-color : black;
+    width : 60%;
+    margin-top : 1%;
+    font-weight : bold;
+}
+#tr{
+    height : 2.5%;
+    width : 40%;
+    border : 3px none;
+    border-radius : 50px;
+    margin-top : 3%;
+    margin-left : 7.3%;
+    background-color : black;
+    padding-left : 0;
+    padding-bottom : 2%;
+    float : left;
+}
+#button2{
+    height : 2%;
+    width : 30%;
+    background-color : rgb(177,196,218);
+    color : black;
+    border : 4px solid;
+    border-color : black;
+    font-size : 110%;
+    line-height : 2%;
+    padding-left : 3%;
+    position : relative;
+    top : 20%;
+    right : 1%;
+    font-weight : 1000;
+}
+#title3{
+    align : left;
+    font-size : 150%;
+    color : rgb(177,196,218);
+    font-weight : 1000;
+    position : relative;
+    top : 23%;
+    right : 5%;
+}
+#mr{
+    height : 2.5%;
+    width : 40%;
+    border : 3px none;
+    border-radius : 50px;
+    margin-top : 3%;
+    margin-left : 5%;
+    background-color : black;
+    padding-left : 0;
+    padding-bottom : 2%;
+    float : left;
+}
+#button3{
+    height : 2%;
+    width : 30%;
+    background-color : rgb(177,196,218);
+    color : black;
+    border : 4px solid;
+    border-color : black;
+    font-size : 110%;
+    line-height : 2%;
+    padding-left : 3%;
+    position : relative;
+    top : 20%;
+    right : 1%;
+    font-weight : 1000;
+}
+#title4{
+    font-size : 150%;
+    color : rgb(177,196,218);
+    font-weight : 1000;
+    position : relative;
+    top : 23%;
+    right : 5%;
+}
+#scheme{
+    position : absolute;
+    top : 25.5%;
+    left : -5%;
+    height : 53%;
+    width : 5.1%;
+    border : 3px none;
+    border-radius : 50px;
+    background-color : black;
+    opacity : 0;
+    padding : 0;
+}
+#vb{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(177,196,218);
+    margin-top : 10%;
+    margin-right : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#vg{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(155,255,181);
+    margin-top : 10%;
+    margin-left : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#vr{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(255,157,157);
+    margin-top : 10%;
+    margin-left : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#vy{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(255,255,159);
+    margin-top : 10%;
+    margin-left : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#vo{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(255,182,108);
+    margin-top : 10%;
+    margin-left : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#vp{
+    height : 14.35%;
+    width : 60%;
+    border : none;
+    border-radius : 50px;
+    background-color : rgb(200,145,255);
+    margin-top : 10%;
+    margin-left : 0.5%;
+    margin-bottom : 1%;
+    opacity : 0;
+    cursor : pointer;
+}
+#colrctrl{
+    color : red;
+    opacity : 0;
+}
+#al1{
+    position : absolute;
+    width : 16%;
+    border : 5px solid black;
+    border-radius : 30px;
+    background-color : rgb(177,196,218);
+    color : black;
+    font-weight : bold;
+    top : 100%;
+    left : 7.3%;
+    text-align : center;
+    cursor : pointer;
+    opacity : 0;
+}
+#al2{
+    position : absolute;
+    width : 16%;
+    border : 5px solid black;
+    border-radius : 30px;
+    background-color : black;
+    color : rgb(177,196,218);
+    font-weight : bold;
+    top : 100%;
+    left : 25%;
+    text-align : center;
+    cursor : pointer;
+    opacity : 0;
+}
+#al3{
+    position : absolute;
+    width : 16%;
+    border : 5px solid black;
+    border-radius : 30px;
+    background-color : black;
+    color : rgb(177,196,218);
+    font-weight : bold;
+    top : 100%;
+    left : 42.7%;
+    text-align : center;
+    cursor : pointer;
+    opacity : 0;
+}
+#al4{
+    position : absolute;
+    width : 16%;
+    border : 5px solid black;
+    border-radius : 30px;
+    background-color : black;
+    color : rgb(177,196,218);
+    font-weight : bold;
+    top : 100%;
+    left : 60.5%;
+    text-align : center;
+    cursor : pointer;
+    opacity : 0;
+}
+#al5{
+    position : absolute;
+    width : 13.2%;
+    border : 5px solid black;
+    border-radius : 30px;
+    background-color : black;
+    color : rgb(177,196,218);
+    font-weight : bold;
+    top : 100%;
+    left : 78.4%;
+    text-align : center;
+    cursor : pointer;
+    opacity : 0;
+}
+#altc{
+    color : blue;
+    opacity : 0;
+}
+#alch{
+    color : blue;
+    opacity : 0;
+}
+#sls{
+    color : blue;
+    opacity : 0;
+}
+#ball{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    height : 10%;
+    width : 5%;
+    transform : translate(-50%,-50%);
+    background-color : black;
+    border : none;
+    border-radius : 100px;
+    opacity : 0;
+    z-index : -1;
+}
+#ball2, #ball3{
+    position : absolute;
+    top : 10%;
+    left : 50%;
+    height : 10%;
+    width : 5%;
+    transform : translate(-50%,-50%);
+    background-color : black;
+    border : none;
+    border-radius : 100px;
+    opacity : 0;
+}
+::-webkit-scrollbar{
+    width : 50px;
+    border : 6px none;
+    border-radius : 50px;
+    background-color : none;
+}
+::-webkit-scrollbar:hover{
+    background-color : none;
+}
+::-webkit-scrollbar-thumb{
+    border : 6px solid black;
+    border-radius : 50px;
+    background-color : none;
+}
+::-webkit-scrollbar-thumb:hover{
+    border : 6px solid black;
+    background-color : grey;
+}
+
+/* --- Responsive rules: Medium (PC), Tablet, Mobile ---
+    These only override layout behavior under the specified widths
+    and intentionally keep desktop styles unchanged. */
+/* Medium screens (992px and below) - ensure main content fits */
+@media (max-width: 992px) {
+    
+}
+
+/* Tablet screens (768px and below) - make controls touch-friendly */
+@media (max-width: 821px) {
+    
+}
+
+/* Mobile (480px and below) - stack and increase touch targets */
+@media (max-width: 480px) {
+    
+}

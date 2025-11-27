@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>
+			Web Effects / Transition
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="./lib/gsap js lib/gsap.min.js">
+		</script>
+		<link rel="stylesheet" href="./lib/gsap css lib/fcaef74061bb7a76e5263dfc076c363e.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body class="d1" style="background-color : rgb(177,196,218)">
+		<center>
+			<h1 id="title1" align="center">Transition and Morphing Demo</h1>
+			<h2 id="title2" align="center">Double Click on Image to Change The Album</h2>
+		</center>
+		<h3 onclick="theme()" id="button1">Theme : Light</h3>
+		<br>
+		<div ondblclick = "alt()" id = "ball"></div>
+		<div id = "ball2"></div>
+		<div id = "ball3"></div>
+		<center>
+			<div class="main">
+				<center>
+					<div ondblclick = "alt()" id="d1">
+					</div>
+					<div ondblclick = "alt()" id="d2">
+					</div>
+					<div ondblclick = "alt()" id="d3">
+					</div>
+					<div ondblclick = "alt()" id="d4">
+					</div>
+				</center>
+			</div>
+			<div id="tr">
+				<font id="title3">Color Scheme</font>
+				<button onclick="cs()" id="button2">Enable</button>
+			</div>
+			<div id="mr">
+				<font id="title4">Slide Show</font>
+				<button onclick="mrf()" id="button3">Start</button>
+			</div>
+			<div id="scheme">
+				<div onclick="colr1()" id="vb"></div>
+				<div onclick="colr2()" id="vg"></div>
+				<div onclick="colr3()" id="vr"></div>
+				<div onclick="colr4()" id="vy"></div>
+				<div onclick="colr5()" id="vo"></div>
+				<div onclick="colr6()" id="vp"></div>
+			</div>
+			<font id="colrctrl"></font>
+		</center>
+		<h3 onclick = "win()" id="al1">Windows 10</h3>
+		<h3 onclick = "nat()" id="al2">Nature</h3>
+		<h3 onclick = "aut()" id="al3">Automobile</h3>
+		<h3 onclick = "met()" id="al4">Metropolitan</h3>
+		<h3 onclick = "spc()" id="al5">Space</h3>
+		<font id="altc">show</font>
+		<font id="alch"></font>
+		<font id="sls">start</font>
+		<script src="main.js"></script>
+	</body>
+</html>

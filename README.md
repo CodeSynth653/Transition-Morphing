@@ -1,0 +1,1 @@
+This project demonstrates the use of HTML, CSS, JavaScript, and the GSAP (GreenSock Animation Platform) to create a highly interactive web application. The focus of the project is on visual transitions, morphing effects, theme switching, and customizable interfaces. This document provides a detailed analysis of the program's structure, logic, and output.
